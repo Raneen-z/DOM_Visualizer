@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>DOM Visualize</title>
+</head>
+
+<body>
+    <div>
+        
+        <div>
+            <h3>Click on a node to append a new element</h3>
+        </div>
+        <header>
+            <p>
+                <strong>Hover</strong> on a node to view <strong>HTML content</strong>
+            </p>
+            Click on (...) to view attributes
+        </header>
+
+        <footer>
+            <h3> Click on button bellow to take a Screenshot and save it</h3>
+        </footer>
+        
+    </div>
+    
+    <div id="img">
+        <button id="snap">Save Screenshot</button>
+    </div>
+    <div id="htmlContent">
+
+    </div>
+    <canvas id="tree" width="1400px" height="2000">
+    </canvas>
+    
+    <script src="http://hongru.github.io/proj/canvas2image/canvas2image.js"></script>
+    <script src="mainScript.js"></script>
+
+</body>
+
+</html>
